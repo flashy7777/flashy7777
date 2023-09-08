@@ -1,3 +1,5 @@
+#This script will scan all hashes from an excel file and present output in another excel file which will contain hash detection report by several vendors through virustotal api.
+#In order to run the script successfully packages such as vt, openpyxl must be installed in editor environment.
 import vt
 import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
