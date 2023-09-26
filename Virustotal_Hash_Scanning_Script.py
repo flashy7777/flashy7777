@@ -5,8 +5,8 @@ import openpyxl
 from openpyxl.styles import PatternFill, Font, Alignment
 
 # Enter your API key
-client = vt.Client("73c23328fecf569ae22e349029e23dd7f524ad8b7749a2c611724ef466d8b23a")
-#5cdec7ac061fdb5f9a918bd9195d732290d2547e254ca334627772f490798739
+client = vt.Client("YOUR_API_KEY")
+
 # Load file hashes from an Excel file
 workbook = openpyxl.load_workbook("file_hashes.xlsx")
 sheet = workbook.active
